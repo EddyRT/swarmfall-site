@@ -1,0 +1,96 @@
+* { box-sizing: border-box; margin: 0; }
+
+html, body {
+  background: #0b0f14;
+  color: #dbe4ea;
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a { color: #31e6ff; }
+
+/* --- Site nav --- */
+.ny-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 18px 24px;
+  border-bottom: 1px solid #1d2833;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.ny-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.ny-nav-brand img { width: 32px; height: 32px; border-radius: 8px; }
+.ny-nav-brand .ny-h { color: #31e6ff; }
+.ny-nav-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.ny-nav-links a {
+  color: #9fb0bd;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+}
+.ny-nav-links a:hover,
+.ny-nav-links a[aria-current="page"] {
+  color: #ffffff;
+  border-bottom-color: #31e6ff;
+}
+
+/* --- Page container --- */
+.ny-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+/* --- Hero (home page) --- */
+.ny-hero { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+.ny-icon { width: 120px; height: 120px; border-radius: 26px; box-shadow: 0 0 0 1px #1d2833; flex-shrink: 0; }
+.ny-eyebrow { color: #8b95a1; letter-spacing: 3px; font-size: 13px; text-transform: uppercase; }
+.ny-title { font-size: clamp(38px, 7vw, 64px); font-weight: 800; color: #ffffff; letter-spacing: 1px; margin-top: 10px; }
+.ny-title.ny-title-sm { font-size: clamp(30px, 5.5vw, 46px); }
+.ny-title .ny-h { color: #31e6ff; }
+.ny-tag { color: #31e6ff; font-weight: 700; letter-spacing: 2px; margin-top: 6px; font-size: clamp(15px, 2.5vw, 20px); }
+.ny-rule { height: 3px; width: 120px; background: linear-gradient(90deg, #31e6ff, transparent); margin: 26px 0; border: 0; }
+
+/* --- Cards --- */
+.ny-card { background: #10161d; border: 1px solid #1d2833; border-radius: 12px; padding: 28px; margin-top: 26px; }
+.ny-card h2 { color: #ffffff; font-size: 24px; margin-bottom: 10px; }
+.ny-card h2 .ny-amber { color: #f2a33c; }
+.ny-card h3 { color: #f2a33c; font-size: 19px; letter-spacing: 1px; margin-bottom: 10px; text-transform: uppercase; }
+.ny-card p { color: #b5c2cc; font-size: 16px; }
+.ny-card p + p { margin-top: 12px; }
+.ny-pitch { color: #9fb0bd; font-size: 17px; }
+
+.ny-feats { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 20px; padding: 0; list-style: none; }
+.ny-feats li { background: #0b1219; border: 1px solid #1d2833; border-left: 3px solid #31e6ff; border-radius: 8px; padding: 12px 16px; font-size: 15px; color: #c7d3dc; flex: 1 1 240px; }
+
+.ny-soon { display: inline-block; margin-top: 22px; background: #152029; border: 1px solid #31e6ff55; color: #31e6ff; font-weight: 700; letter-spacing: 2px; padding: 12px 22px; border-radius: 999px; font-size: 14px; }
+
+/* --- Privacy policy text --- */
+.ny-meta { color: #5d6a75; font-size: 14px; margin-top: 8px; }
+.ny-wrap h2.ny-section { color: #f2a33c; font-size: 18px; letter-spacing: 1px; text-transform: uppercase; margin: 28px 0 10px; }
+.ny-wrap ul.ny-list { margin: 10px 0 0 22px; color: #b5c2cc; font-size: 16px; }
+.ny-wrap ul.ny-list li { margin-top: 6px; }
+.ny-wrap strong { color: #ffffff; }
+
+/* --- Contact grid --- */
+.ny-grid { display: flex; flex-wrap: wrap; gap: 16px; }
+.ny-grid .ny-card { flex: 1 1 260px; margin-top: 0; }
+.ny-mail { display: inline-block; margin-top: 14px; color: #31e6ff; font-weight: 700; font-size: 17px; text-decoration: none; border-bottom: 2px solid #31e6ff44; padding-bottom: 2px; }
+.ny-note { margin-top: 26px; color: #5d6a75; font-size: 13px; }
+
+/* --- Footer --- */
+.ny-foot { max-width: 900px; margin: 0 auto; padding: 0 24px 40px; color: #5d6a75; font-size: 13px; }
