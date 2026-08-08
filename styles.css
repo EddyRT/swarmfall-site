@@ -573,11 +573,15 @@ a {
   margin: 0 auto;
 }
 
-.footer-brand span {
+.footer-brand > span {
   display: block;
   font-family: "Arial Black", "Bahnschrift Condensed", Impact, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
+}
+
+.footer-brand .brand-accent {
+  display: inline;
 }
 
 .footer-brand small,
