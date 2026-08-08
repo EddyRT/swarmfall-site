@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About Us — namyeH Studios</title>
-<meta name="description" content="namyeH Studios is a two-person independent game studio making Swarmfall, a dark wave-survival extraction shooter.">
-<link rel="icon" href="assets/swarmfall-icon-512.png">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a08">
+  <title>About namyeH Studios</title>
+  <meta name="description" content="namyeH Studios is a two-person independent game studio making Swarmfall, a dark wave-survival extraction shooter for Android.">
+  <link rel="icon" href="assets/swarmfall-icon-512.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-brand" href="index.html" aria-label="namyeH Studios home">
+        <img src="assets/swarmfall-icon-512.png" alt="">
+        <span>namye<span class="brand-accent">H</span> Studios</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html">Game</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+        <nav aria-label="Mobile navigation">
+          <a href="index.html">Game</a>
+          <a href="about.html" aria-current="page">About</a>
+          <a href="contact.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </details>
+    </div>
+  </header>
 
-<nav class="ny-nav">
-  <a class="ny-nav-brand" href="index.html"><img src="assets/swarmfall-icon-512.png" alt=""><span>namye<span class="ny-h">H</span> Studios</span></a>
-  <div class="ny-nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html" aria-current="page">About</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
+  <main>
+    <section class="page-hero has-gameplay-bg">
+      <div class="page-hero-inner">
+        <p class="page-kicker">Studio file // 01</p>
+        <h1>Small team. Sharp decisions.</h1>
+        <p class="page-deck">Two cousins making dark, focused games around the choices that make you lean closer to the screen.</p>
+      </div>
+    </section>
 
-<main class="ny-wrap">
-  <div class="ny-eyebrow">About us</div>
-  <div class="ny-title ny-title-sm">namye<span class="ny-h">H</span> Studios</div>
-  <hr class="ny-rule">
+    <div class="page-main">
+      <div class="content-grid">
+        <section class="content-block">
+          <h2>Who we are</h2>
+          <p>namyeH Studios is a tiny independent game studio. We make the kind of games we want to play: tense, readable, and built around one good decision worth sweating over.</p>
+          <p>Our first title, <strong>Swarmfall</strong>, is a zombie wave-survival extraction shooter for Android. Clear the block, bank the drop, and try not to get greedy. Everyone gets greedy.</p>
+        </section>
 
-  <div class="ny-card">
-    <h3>Who we are</h3>
-    <p>
-      namyeH Studios is a tiny independent game studio — two cousins making
-      the kind of games we want to play: dark, tense, and built around one
-      good decision worth sweating over.
-    </p>
-    <p>
-      Our first title, <strong>Swarmfall</strong>, is a
-      zombie wave-survival extraction shooter for Android. Clear the block,
-      bank the drop, and try not to get greedy. (Everyone gets greedy.)
-    </p>
-  </div>
+        <section class="content-block">
+          <h2>Why namyeH?</h2>
+          <p>Read it backwards. That is the whole joke. We like it anyway.</p>
+          <p>Questions, feedback, and bug reports are welcome at <a class="plain-link" href="mailto:contact@namyeh.com">contact@namyeh.com</a>.</p>
+        </section>
+      </div>
+    </div>
+  </main>
 
-  <div class="ny-card">
-    <h3>Why "namyeH"?</h3>
-    <p>
-      Read it backwards. That's the whole joke. We like it anyway.
-    </p>
-  </div>
-
-  <div class="ny-card">
-    <h3>Get in touch</h3>
-    <p>
-      Questions, feedback, or bug reports — we read everything:
-      <a href="mailto:contact@namyeh.com">contact@namyeh.com</a>
-    </p>
-  </div>
-</main>
-
-<p class="ny-foot">&copy; 2026 namyeH Studios. All rights reserved.</p>
-
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="footer-brand">
+        <span>namye<span class="brand-accent">H</span> Studios</span>
+        <small>Independent games built with focus and intent.</small>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Game</a>
+        <a href="contact.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+      <p>&copy; 2026 namyeH Studios. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
